@@ -1,0 +1,67 @@
+{
+  "image_path": "..\\data\\test_images\\single_tests\\document2.jpg",
+  "timestamp": "2025-09-20T16:25:28.127487",
+  "processing_time": 0.19094133377075195,
+  "yolo_results": {
+    "image_path": "..\\data\\test_images\\single_tests\\document2.jpg",
+    "detections": [
+      {
+        "bbox": [
+          3,
+          3,
+          218,
+          201
+        ],
+        "confidence": 0.571427583694458,
+        "class_id": 63,
+        "class_name": "laptop"
+      }
+    ],
+    "crops": [
+      {
+        "crop_id": 0,
+        "crop_path": "results\\detections\\document2crop0.jpg",
+        "crop_bbox": [
+          0,
+          0,
+          224,
+          214
+        ],
+        "original_bbox": [
+          3,
+          3,
+          218,
+          201
+        ]
+      }
+    ],
+    "annotated_image_path": "results\\detections\\document2_yolo_detection.jpg",
+    "total_detections": 1
+  },
+  "classification_results": [
+    {
+      "crop_id": 0,
+      "crop_path": "results\\detections\\document2crop0.jpg",
+      "image_path": "results\\detections\\document2crop0.jpg",
+      "original_size": [
+        224,
+        214
+      ],
+      "predicted_class": "forged",
+      "predicted_class_idx": 1,
+      "confidence": 0.9996588230133057,
+      "class_probabilities": {
+        "authentic": 0.00034117320319637656,
+        "forged": 0.9996588230133057
+      },
+      "risk_level": "very_high"
+    }
+  ],
+  "summary": {
+    "total_documents": 1,
+    "authentic_documents": 0,
+    "forged_documents": 1,
+    "authenticity_rate": 0.0,
+    "fraud_rate": 1.0
+  }
+}

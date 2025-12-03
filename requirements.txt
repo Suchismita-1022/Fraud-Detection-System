@@ -1,0 +1,31 @@
+# Core Libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Imbalanced Data Handling
+imbalanced-learn
+
+# Deep Learning
+torch
+torchvision
+torchmetrics
+timm
+opencv-python
+
+# YOLOv8 (if using object detection)
+ultralytics
+
+# API / Deployment
+flask
+flask-cors
+streamlit
+
+# Utility
+joblib
+python-dotenv
+
+# Optional (for notebooks)
+jupyter
